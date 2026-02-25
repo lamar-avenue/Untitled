@@ -8,6 +8,7 @@ import { GlassCard } from './components/GlassCard';
 import { questLevels, QuestLevel } from './data/questData';
 const carImage = "/hero.png";
 
+
 const KeyCharacter: React.FC<{ char: string | undefined; index: number }> = ({ char, index }) => {
   const [displayChar, setDisplayChar] = useState('?');
   const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%&*";
