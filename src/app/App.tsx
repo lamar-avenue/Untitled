@@ -6,7 +6,7 @@ import confetti from 'canvas-confetti';
 import { AuraBackground } from './components/AuraBackground';
 import { GlassCard } from './components/GlassCard';
 import { questLevels, QuestLevel } from './data/questData';
-import carImage from "figma:asset/29b3a5a1b27405b58b2245be649f5942f9d7668f.png";
+import carImage from "@/assets/29b3a5a1b27405b58b2245be649f5942f9d7668f.png";
 
 const KeyCharacter: React.FC<{ char: string | undefined; index: number }> = ({ char, index }) => {
   const [displayChar, setDisplayChar] = useState('?');
